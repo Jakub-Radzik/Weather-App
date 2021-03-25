@@ -1,0 +1,33 @@
+.fall
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  .scrollWrapper
+    width: 90%
+    max-width: 1024px
+    margin-top: 100px
+    margin-bottom: 100px
+    @media screen and (max-width: 1024px)
+      margin: 0
+      width: 100%
+      overflow-y: scroll
+    .chart
+      width: 100%
+      @media screen and (max-width: 1024px)
+        width: 1000px
+  .warning
+    border-radius: 50px
+    width: 50%
+    height: 70px
+    background-color: red
+    margin-top: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 1.7em
+    @media screen and (max-width: 1024px)
+      margin: 0
+      border-radius: 0
+      width: 100%
